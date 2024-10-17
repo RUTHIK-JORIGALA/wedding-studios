@@ -1,0 +1,43 @@
+.intro-text{
+    max-width: 80%;
+    margin: 30px auto;
+}
+.intro-text h2{
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+.intro-text p{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    letter-spacing: 1.2px;
+    color: gray;
+    line-height: 20px;
+}
+.services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.service-image img{
+    width: 100%;
+}
+.service-text{
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.service-text h2{
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.service-text p{
+    letter-spacing: 2px;
+    font-style: italic;
+}
+

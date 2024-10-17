@@ -1,0 +1,51 @@
+.photo-category-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+.photo-category{
+    height: 400px;
+    background-size: cover;
+    backdrop-filter: brightness(0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+.wedding{
+    background-image: url('../../assets/marriage/marriage-11.jpg');
+}
+.portraits{
+    background-image: url('../../assets/fashion/fashion-06.jpg');
+}
+.kids{
+    background-image: url('../../assets/kids/kid6.jpg');
+}
+.fashion{
+    background-image: url('../../assets/fashion/fashion-01.jpg');
+}
+
+.photo-category h1{
+    letter-spacing: 1.5px;
+    color: #fff;
+    text-transform: uppercase;
+    /* background: rgba(0,0,0,0.2); */
+}
+.photo-view-link{
+    padding: 4px 8px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+    /* background: rgba(0,0,0,0.2); */
+    backdrop-filter: blur(2px);
+    transition: all 0.5s;
+}
+.photo-view-link:hover{
+    background-color: gray;
+    
+
+}

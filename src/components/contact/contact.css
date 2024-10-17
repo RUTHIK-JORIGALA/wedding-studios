@@ -1,0 +1,92 @@
+
+.get-in-touch{
+    margin: 20px auto; 
+    color: gray;
+    text-align: center;
+}
+
+.get-in-touch-text{
+    margin: 50px auto;
+}
+.get-in-touch-text h1{
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+.get-in-touch-text p{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.contact-options{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 90vw;
+    justify-content: center;
+    height: 200px;
+    margin: 0 auto;
+
+}
+.contact-option{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    /* padding: 2em; */
+    
+}
+.option1{
+    background-image: url('../../assets/mail_box.jpg');
+    background-size: cover;
+}
+.option1-link{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    backdrop-filter: brightness(0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.option2{
+    background: #f58c8c;
+}
+.option3{
+    background: #8dd9e6;
+}
+.option4{
+    /* background:  url('../../assets/notes.webp') ;
+    background-size: cover;
+    opacity: 0.2; */
+    position: relative; 
+    
+}
+.option4::before {    
+    content: "";
+    background-image: url('../../assets/notes.webp');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+}
+.option-icon{
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    
+    
+}
+.option-text4{
+    position: relative;
+    color: #000;
+}
